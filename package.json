@@ -1,0 +1,34 @@
+{
+  "name": "mycrypto-security-page",
+  "version": "1.0.0",
+  "description": "Security program for MyCrypto",
+  "main": "gulpfile.js",
+  "author": "MyCrypto",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "dist": "gulp build"
+  },
+  "dependencies": {
+    "bootstrap": "*",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-file": "*",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sitemap": "*",
+    "gulp-uglify": "*",
+    "hoek": "^5.0.3",
+    "run-sequence": "*",
+    "zepto": "*"
+  },
+  "devDependencies": {
+    "gulp-image-resize": "0.13.0",
+    "gulp-imagemin": "4.1.0"
+  }
+}
