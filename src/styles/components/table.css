@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+}
+
+th {
+  vertical-align: text-top;
+  width: 10%;
+  text-align: right;
+  padding-right: 1em;
+}
+
+td {
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=table.css.map */
