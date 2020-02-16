@@ -50,22 +50,32 @@
     </div>
     <div class="nav-col nav-right">
       <a href="https://openbugbounty.org/report/" target="_blank">Submit via OBB</a>
-      <a href="mailto:security@mycrypto.com" target="_blank">Submit via Email</a>
+      <a href="mailto:security@mycrypto.com" target="_blank">Submit via Email</a> [<a href="https://keybase.io/mycrypto/pgp_keys.asc?fingerprint=be7b7a02069ba692e759a7fc5245616691a3ee98" target="_blank">PGP 🔑</a>]
     </div>
   </section>
 
   <article class="container-md">
-    <h1><a href="#policy" name="policy">Policy</a></h1>
+    <h1><a href="#intro" name="intro">Intro</a></h1>
 
     <p>
-        MyCrypto is a cryptocurrency interface that allows people to interact with their cryptocurrency assets in a way that is more user-friendly than 
-        other solutions. We do not hold custody of any customer's assets nor do we collect personally-identifiable information about any of our 
-        customers, so our security policy is centered on how well our software allows people to safely and privately interact with their own assets.
-        <br /><br />
+      MyCrypto is a cryptocurrency interface (commonly referred to as a "wallet") that allows people to interact with their cryptocurrency assets in a user-friendly way.
+      We <strong>do not</strong> take custody of any customer's assets, nor do we collect personally-identifiable information about any of our customers. The user's private keys and 
+      passwords are never saved, stored anywhere, or transferred.
 
-        MyCrypto looks forward to working with the security community to find security vulnerabilities in order to keep our businesses and customers 
-        safe. We are particularly interested in vulnerabilities found in the application layer, but any vulnerability across our stack that could lead 
-        to compromise of user funds is within scope (except as listed in "<strong>Out of Scope</strong>").
+      <br /><br />
+
+      Our security policy is centered around ensuring our software allows people to safely and privately interact with their own assets. We want to ensure nothing 
+      unexpected happens that could result in a user losing their assets in an unexpected way—whether that is via a third-party or malicious actor or their own actions.
+
+      <br /><br />
+
+      MyCrypto looks forward to working with the security community to find security vulnerabilities in order to keep our businesses and customers safe. We are particularly 
+      interested in vulnerabilities found in the application layer, but any vulnerability across our stack that could lead to compromise of user funds is within 
+      scope (except as listed in "Out of Scope"). We are always appreciative when you share insights that will make our product safer, even if they aren't specifically in scope.
+
+      <br /><br />
+
+      Toegther we can make the cryptocurrency space safer.
     </p>
 
     <h3><a href="#vuln-response-process" name="vuln-response-process">Vulnerability Response Process</a></h3>
@@ -96,7 +106,8 @@
 
     <p>
       <ul>
-        <li>Email: security@mycrypto.com - PGP fingerprint: BE7B 7A02 069B A692 E759 A7FC 5245 6166 91A3 EE98</li>
+        <li><a href="https://www.openbugbounty.org/report/" target="_blank">https://www.openbugbounty.org/report/</a></li>
+        <li>Email: security@mycrypto.com - PGP fingerprint: <a href="https://keybase.io/mycrypto/pgp_keys.asc?fingerprint=be7b7a02069ba692e759a7fc5245616691a3ee98" target="_blank">BE7B 7A02 069B A692 E759 A7FC 5245 6166 91A3 EE98</a></li>
       </ul>
     </p>
 
@@ -184,14 +195,28 @@
     <h3><a href="#reward-distribution" name="reward-distribution">Reward Distribution</a></h3>
 
     <p>
-        MyCrypto has not set standards for rewards. Rewards, when applicable, will be considered on a case-by-case basis and are at the sole discretion of MyCrypto.
+        MyCrypto currently has no set standards for rewards at this time. We do have a budget, an amazing amount of swag, and our gratitude to 
+        offer. Rewards, when applicable, will be considered on a case-by-case basis and are at the sole discretion of MyCrypto. If your report 
+        has been considered for a reward, this will be communicated to you via email.
+
         <br /><br />
-        If your report has been considered for a reward, this will be communicated to you via email.
+
+        As we have security researchers on our team, we are very conscious of rewarding those who take the time and effort to protect us and our users.
     </p>
 
     <h3><a href="#in-scope" name="in-scope">In Scope</a></h3>
 
     <table>
+        <tr>
+            <th>
+              Executable
+            </th>
+            <td>
+                <strong>MyCryptoDesktop</strong> <br />
+                Latest executables can be found <a href="https://github.com/MyCryptoHQ/MyCrypto/releases/latest" target="_blank">https://github.com/MyCryptoHQ/MyCrypto/releases/latest</a>. 
+                Previous versions can be found listed <a href="https://github.com/MyCryptoHQ/MyCrypto/releases/" target="_blank">https://github.com/MyCryptoHQ/MyCrypto/releases/</a> - or you can <a href="https://github.com/MyCryptoHQ/MyCrypto#running-the-app" target="_blank">build yourself</a>
+            </td>
+          </tr>       
       <tr>
         <th>
           Domain
@@ -200,6 +225,10 @@
             <strong>beta.mycrypto.com</strong> <br />
             Beta is updated if we have a sizable number of changes to implement (i.e.: large refactors, how interaction works). It could be outdated with the current 
             production version by a lot so vulnerabilities with the source could already be patched.
+
+            <br /><br />
+
+            <a href="https://github.com/MyCryptoHQ/MyCrypto/tree/master" target="_blank">https://github.com/MyCryptoHQ/MyCrypto/tree/master</a>
         </td>
       </tr>
       <tr>
@@ -211,22 +240,10 @@
             MyCrypto is a cryptocurrency interface that allows people to interact with their cryptocurrency assets in a way that is more user-friendly than other solutions. 
             We do not hold custody of any customer's assets nor do we collect personally-identifiable information about any of our customers, so our security policy is 
             centered on how well our software allows people to safely and privately interact with their own assets.
-        </td>
-      </tr>
-      <tr>
-        <th>
-          Domain
-        </th>
-        <td>
-            <strong>overflow.mycrypto.com</strong> <br />
-        </td>
-      </tr>      
-      <tr>
-        <th>
-          Domain
-        </th>
-        <td>
-            <strong>support.mycrypto.com</strong> <br />
+
+            <br /><br />
+            
+            <a href="https://github.com/MyCryptoHQ/MyCrypto/tree/legacy" target="_blank">https://github.com/MyCryptoHQ/MyCrypto/tree/legacy</a>
         </td>
       </tr>     
       <tr>
@@ -234,12 +251,15 @@
           Domain
         </th>
         <td>
-            <strong>legacy.mycrypto.com</strong> <br />
-            MyCrypto is a cryptocurrency interface that allows people to interact with their cryptocurrency assets in a way that is more user-friendly than other solutions. 
-            We do not hold custody of any customer's assets nor do we collect personally-identifiable information about any of our customers, so our security policy is 
-            centered on how well our software allows people to safely and privately interact with their own assets.
+            <strong>support.mycrypto.com</strong> <br />
+
+            This is our knowledge base and contact form for handling support tickets. It is our source of truth that we direct users to learn about our products.
+
+            <br /><br />
+
+            <a href="https://github.com/MyCryptoHQ/support.mycrypto.com" target="_blank">https://github.com/MyCryptoHQ/support.mycrypto.com</a>
         </td>
-      </tr>  
+      </tr>       
       <tr>
         <th>
           Domain
@@ -247,6 +267,10 @@
         <td>
             <strong>download.mycrypto.com</strong> <br />
             This is a simple GUI product page to detail our desktop app. For vulnerabilities for the desktop app, see the "Executable" type named "MyCrypto Desktop".
+
+            <br /><br />
+
+            <a href="https://github.com/MyCryptoHQ/download.mycrypto.com" target="_blank">https://github.com/MyCryptoHQ/download.mycrypto.com</a>
         </td>
       </tr>     
       <tr>
@@ -256,32 +280,23 @@
         <td>
             <strong>buy.mycrypto.com</strong> <br />
             This is an interface to use the Simplex widget, MyCrypto branded. Private data is handled by them.
+
+            <br /><br />
+
+            <a href="https://github.com/MyCryptoHQ/buy.mycrypto.com" target="_blank">https://github.com/MyCryptoHQ/buy.mycrypto.com</a>
         </td>
-      </tr>       
-      <tr>
-        <th>
-          Domain
-        </th>
-        <td>
-            <strong>ambo.io</strong> <br />
-            Ambo.io is a product page for Ambo mobile apps. Any vulnerabilities with those please see type "iOS: App Store" titled "Ambo IOS App".
-        </td>
-      </tr>   
-      <tr>
-        <th>
-          Domain
-        </th>
-        <td>
-            <strong>ambo.herokuapp.com</strong> <br />
-            This is the network proxy between third-party APIs and the Ambo app.
-        </td>
-      </tr>     
+      </tr>           
       <tr>
         <th>
           Domain
         </th>
         <td>
             <strong>etherscamdb.info</strong> <br />
+            This is a directory of known cryptocurrency related scams.
+
+            <br /><br />
+
+            <a href="https://github.com/MrLuit/EtherScamDB" target="_blank">https://github.com/MrLuit/EtherScamDB</a>
         </td>
       </tr>     
       <tr>
@@ -290,34 +305,43 @@
         </th>
         <td>
             <strong>cryptoscamdb.org</strong> <br />
+            This is a directory of known cryptocurrency related scams.
+
+            <br /><br />
+
+            <a href="https://github.com/CryptoScamDB/frontend-gatsby" target="_blank">https://github.com/CryptoScamDB/frontend-gatsby</a>
         </td>
-      </tr>       
-      <tr>
-        <th>
-          Domain
-        </th>
-        <td>
-            <strong>about.mycrypto.com</strong> <br />
-        </td>
-      </tr>          
-      <tr>
-        <th>
-          Executable
-        </th>
-        <td>
-            <strong>MyCryptoDesktop</strong> <br />
-            Latest executables can be found <a href="https://github.com/MyCryptoHQ/MyCrypto/releases/latest" target="_blank">https://github.com/MyCryptoHQ/MyCrypto/releases/latest</a>. 
-            Previous versions can be found listed <a href="https://github.com/MyCryptoHQ/MyCrypto/releases/" target="_blank">https://github.com/MyCryptoHQ/MyCrypto/releases/</a> - or you can <a href="https://github.com/MyCryptoHQ/MyCrypto#running-the-app" target="_blank">build yourself</a>
-        </td>
-      </tr>    
+      </tr>                   
       <tr>
         <th>
           iOS: App Store
         </th>
         <td>
-            <strong>1460081235</strong> <br />
+            <strong>1460081235</strong> 
+
+            <br /><br />
+
+            <a href="https://itunes.apple.com/us/app/ambo/id1460081235?mt=8" target="_blank">https://itunes.apple.com/us/app/ambo/id1460081235</a>
         </td>
-      </tr>                   
+      </tr>   
+      <tr>
+          <th>
+            Domain
+          </th>
+          <td>
+              <strong>ambo.io</strong> <br />
+              Ambo.io is a product page for Ambo mobile apps.
+          </td>
+        </tr>   
+        <tr>
+          <th>
+            Domain
+          </th>
+          <td>
+              <strong>ambo.herokuapp.com</strong> <br />
+              This is the network proxy between third-party APIs and the Ambo app.
+          </td>
+        </tr>            
     </table>
 </article>
 </main>
